@@ -41,3 +41,4 @@ Next.js (App Router) port of the original static `index.html` + `styles.css` lan
 
 - Keep visual parity with the static version; any design/motion work happens in later phases.
 - Anchor links (`#program`, `#journey`, …) must keep working across sections.
+- Work from feature branches, merge into `development`, and let Vercel auto-deploy that branch.
