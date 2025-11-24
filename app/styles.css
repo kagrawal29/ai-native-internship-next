@@ -357,18 +357,103 @@ img {
   height: 24px;
   stroke: var(--primary);
 }
-.split {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0));
+
+.why-now {
+  background: radial-gradient(circle at top, rgba(26, 40, 88, 0.25), rgba(5, 6, 8, 0));
 }
 
-.split-grid {
+.why-grid {
   display: grid;
-  gap: 2.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
 }
 
-.split-grid p {
+.why-content h2 {
+  font-size: clamp(2.6rem, 4vw, 3.4rem);
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.why-intro {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.why-stats {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-bottom: 1.5rem;
+}
+
+.why-stats article {
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1.5rem;
+  background: rgba(6, 8, 15, 0.7);
+  box-shadow: 0 30px 60px rgba(5, 6, 8, 0.35);
+}
+
+.stat-number {
+  font-size: 2.8rem;
+  margin: 0;
+  color: #fff;
+}
+
+.stat-label {
+  margin: 0.3rem 0 0;
+  color: var(--text-muted);
+}
+
+.why-question {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.why-panel {
+  border-radius: 32px;
+  padding: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(145deg, rgba(14, 18, 30, 0.9), rgba(18, 12, 32, 0.85));
+  box-shadow: 0 40px 90px rgba(5, 6, 8, 0.45);
+}
+
+.trend-timeline {
+  border-left: 2px solid rgba(255, 255, 255, 0.12);
+  padding-left: 1.5rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.trend-timeline span {
+  font-size: 0.8rem;
+  letter-spacing: 0.35em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.trend-timeline p {
+  margin: 0.35rem 0 0;
+  color: #e9edff;
+}
+
+.why-quote {
+  margin-top: 2rem;
+  padding: 1.5rem 1.8rem;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.why-quote p {
+  font-size: 1.2rem;
+  margin: 0 0 0.35rem;
+  color: #fff;
+}
+
+.why-quote span {
   color: var(--text-muted);
 }
 
