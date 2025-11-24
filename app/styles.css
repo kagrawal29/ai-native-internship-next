@@ -395,6 +395,7 @@ img {
   border-radius: 999px;
   background: linear-gradient(90deg, #0fa9ff, #9340ff);
   filter: drop-shadow(0 5px 20px rgba(15, 169, 255, 0.4));
+  transform-origin: left center;
 }
 
 .timeline-pulse {
@@ -428,13 +429,14 @@ img {
 .timeline-node::before {
   content: "";
   position: absolute;
-  top: -28px;
+  top: 2.2rem;
   left: 1.2rem;
   width: 12px;
   height: 12px;
   border-radius: 50%;
   background: #0fa9ff;
   box-shadow: 0 0 0 8px rgba(15, 169, 255, 0.15);
+  transform: translateY(-50%);
 }
 
 .timeline-node:nth-child(2)::before {
