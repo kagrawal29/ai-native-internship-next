@@ -408,6 +408,7 @@ img {
 
 .timeline-node {
   flex: 1 1 220px;
+  margin-top: 1rem;
   padding: 1.8rem 1.2rem;
   border-radius: 18px;
   background: rgba(5, 6, 8, 0.75);
@@ -419,7 +420,7 @@ img {
 .timeline-node::before {
   content: "";
   position: absolute;
-  top: 0.2rem;
+  top: -0.8rem;
   left: 1.2rem;
   width: 12px;
   height: 12px;
