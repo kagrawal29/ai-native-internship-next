@@ -381,57 +381,91 @@ img {
   margin-bottom: 1.5rem;
 }
 
-.why-stats {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  margin-bottom: 1.5rem;
-}
-
 .why-timeline {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  margin-top: 1.5rem;
+  margin-top: 2rem;
+  position: relative;
+  padding-top: 3rem;
 }
 
-.why-timeline article {
-  padding: 1.5rem;
-  border-radius: 22px;
+.timeline-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2.2rem;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #0fa9ff, #9340ff);
+  filter: drop-shadow(0 5px 20px rgba(15, 169, 255, 0.4));
+}
+
+.timeline-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.timeline-node {
+  flex: 1 1 220px;
+  padding: 1.8rem 1.2rem;
+  border-radius: 18px;
+  background: rgba(5, 6, 8, 0.75);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  background: linear-gradient(135deg, rgba(15, 169, 255, 0.12), rgba(147, 64, 255, 0.12));
-  box-shadow: 0 20px 50px rgba(5, 6, 8, 0.4);
+  position: relative;
+  box-shadow: 0 25px 60px rgba(5, 6, 8, 0.5);
 }
 
-.why-timeline span {
+.timeline-node::before {
+  content: "";
+  position: absolute;
+  top: -28px;
+  left: 1.2rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #0fa9ff;
+  box-shadow: 0 0 0 8px rgba(15, 169, 255, 0.15);
+}
+
+.timeline-node:nth-child(2)::before {
+  background: #7b5eff;
+  box-shadow: 0 0 0 8px rgba(123, 94, 255, 0.15);
+}
+
+.timeline-node:nth-child(3)::before {
+  background: #ff7abd;
+  box-shadow: 0 0 0 8px rgba(255, 122, 189, 0.2);
+}
+
+.timeline-node span {
   font-size: 0.75rem;
   letter-spacing: 0.35em;
   text-transform: uppercase;
   color: var(--text-muted);
 }
 
-.why-timeline h3 {
+.timeline-node h3 {
   margin: 0.8rem 0 0.4rem;
   font-size: 1.3rem;
   color: #fff;
 }
 
-.why-timeline p {
+.timeline-node p {
   margin: 0;
   color: var(--text-muted);
 }
 
 .why-panel {
   margin-top: 1.5rem;
-  padding: 1.2rem 1.5rem;
+  padding: 1rem 1.5rem;
   border-left: 3px solid #0fa9ff;
   background: rgba(255, 255, 255, 0.02);
   border-radius: 18px;
+  color: #e9edff;
 }
 
 .why-quote-inline {
   margin: 0;
-  color: #e9edff;
   font-size: 1rem;
 }
 
