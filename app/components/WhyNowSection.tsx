@@ -15,7 +15,6 @@ export function WhyNowSection() {
         </div>
         <div className="why-timeline">
           <motion.div className="timeline-line" aria-hidden="true" initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }} />
-          <motion.div className="timeline-pulse" aria-hidden="true" initial={{ x: "0%" }} whileInView={{ x: "100%" }} transition={{ duration: 1.2, delay: 0.1, ease: "easeInOut" }} viewport={{ once: true }} />
           <div className="timeline-steps">
             <motion.div className="timeline-node" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}>
               <span>2021</span>
