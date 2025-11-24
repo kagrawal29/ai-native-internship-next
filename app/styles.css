@@ -419,21 +419,32 @@ img {
 
 .why-question {
   font-size: 1.2rem;
-  color: #fff;
+  color: #f5f5ff;
 }
 
 .why-panel {
-  padding: 1.75rem 2rem;
-  border-radius: 26px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(6, 8, 15, 0.7);
+  padding: 1.5rem 1.75rem;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(6, 8, 15, 0.5);
 }
 
 .timeline-strip {
-  display: grid;
-  gap: 1.2rem;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
   font-size: 0.95rem;
+}
+
+.timeline-strip div {
+  flex: 1;
+  padding-right: 1rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.timeline-strip div:last-child {
+  border-right: none;
+  padding-right: 0;
 }
 
 .timeline-strip span {
@@ -442,18 +453,13 @@ img {
   letter-spacing: 0.35em;
   text-transform: uppercase;
   color: var(--text-muted);
-  margin-bottom: 0.45rem;
-}
-
-.timeline-strip div {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  padding-bottom: 1rem;
+  margin-bottom: 0.35rem;
 }
 
 .why-quote-inline {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   color: #e9edff;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 .section-cta {
