@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export function WhyNowSection() {
   return (
     <section className="section why-now" id="why-now">
@@ -10,23 +14,24 @@ export function WhyNowSection() {
           <p className="why-intro">2025 grads compete with AI-native operators. Teams hire builders who automate, ship, and speak product.</p>
         </div>
         <div className="why-timeline">
-          <div className="timeline-line" aria-hidden="true" />
+          <motion.div className="timeline-line" aria-hidden="true" initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }} />
+          <motion.div className="timeline-pulse" aria-hidden="true" initial={{ x: "0%" }} whileInView={{ x: "100%" }} transition={{ duration: 1.2, delay: 0.1, ease: "easeInOut" }} viewport={{ once: true }} />
           <div className="timeline-steps">
-            <div className="timeline-node">
+            <motion.div className="timeline-node" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}>
               <span>2021</span>
               <h3>Jobs shift faster than degrees.</h3>
               <p>AI roles explode while most classes still teach theory.</p>
-            </div>
-            <div className="timeline-node">
+            </motion.div>
+            <motion.div className="timeline-node" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.4 }}>
               <span>2025</span>
               <h3>You graduate into automation.</h3>
               <p>Teams already automate repeatable work—they only hire builders who ship.</p>
-            </div>
-            <div className="timeline-node">
+            </motion.div>
+            <motion.div className="timeline-node" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.6 }}>
               <span>2030</span>
               <h3>Proof beats promises.</h3>
               <p>People who deliver AI workflows run the show. Everyone else plays catch-up.</p>
-            </div>
+            </motion.div>
           </div>
           <p className="why-quote-inline">“AI isn’t taking jobs. People who know how to build with AI are.” — Sarath Ramesh</p>
         </div>

@@ -397,6 +397,17 @@ img {
   filter: drop-shadow(0 5px 20px rgba(15, 169, 255, 0.4));
 }
 
+.timeline-pulse {
+  position: absolute;
+  top: 2.1rem;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(15, 169, 255, 0.6);
+}
+
 .timeline-steps {
   display: flex;
   flex-wrap: wrap;
