@@ -383,14 +383,13 @@ img {
 .why-timeline {
   margin-top: 2rem;
   position: relative;
-  padding-top: 3rem;
 }
 
 .timeline-line {
   position: absolute;
   left: 0;
   right: 0;
-  top: 2.2rem;
+  top: 0.2rem;
   height: 4px;
   border-radius: 999px;
   background: linear-gradient(90deg, #0fa9ff, #9340ff);
@@ -400,7 +399,7 @@ img {
 
 .timeline-pulse {
   position: absolute;
-  top: 2.1rem;
+  top: 0.08rem;
   left: 0;
   width: 14px;
   height: 14px;
@@ -414,6 +413,7 @@ img {
   flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: space-between;
+  margin-top: 2rem;
 }
 
 .timeline-node {
@@ -429,7 +429,7 @@ img {
 .timeline-node::before {
   content: "";
   position: absolute;
-  top: 2.2rem;
+  top: 0.2rem;
   left: 1.2rem;
   width: 12px;
   height: 12px;
