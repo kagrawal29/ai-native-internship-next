@@ -17,19 +17,19 @@ export function WhyNowSection() {
           <motion.div className="timeline-line" aria-hidden="true" initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }} />
           <div className="timeline-steps">
             <motion.div className="timeline-node" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}>
-              <span>2021</span>
+              <span>2023</span>
               <h3>Jobs shift faster than degrees.</h3>
-              <p>AI roles explode while most classes still teach theory.</p>
+              <p>ChatGPT launched. Companies hired AI builders. Universities kept teaching the same curriculum.</p>
             </motion.div>
             <motion.div className="timeline-node" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.4 }}>
               <span>2025</span>
               <h3>You graduate into automation.</h3>
-              <p>Teams already automate repeatable work—they only hire builders who ship.</p>
+              <p>Entry-level roles are automated. Hiring managers want portfolios, not GPAs.</p>
             </motion.div>
             <motion.div className="timeline-node" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.6 }}>
               <span>2030</span>
               <h3>Proof beats promises.</h3>
-              <p>People who deliver AI workflows run the show. Everyone else plays catch-up.</p>
+              <p>AI-native builders lead teams. Everyone else gets replaced by their tools.</p>
             </motion.div>
           </div>
           <p className="why-quote-inline">“AI isn’t taking jobs. People who know how to build with AI are.” — Sarath Ramesh</p>
