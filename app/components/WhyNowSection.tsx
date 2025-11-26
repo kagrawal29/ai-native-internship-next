@@ -1,24 +1,38 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export function WhyNowSection() {
   return (
-    <section className="section split">
-      <div className="container split-grid">
-        <div>
+    <section className="section why-now" id="why-now">
+      <div className="container why-grid">
+        <div className="why-content">
           <p className="eyebrow">Why now</p>
-          <h2>Jobs are vanishing. AI Natives are replacing them.</h2>
-          <p>
-            Across every industry, repetitive and process-driven jobs are disappearing faster than teams can retrain. McKinsey estimates
-            over 400 million roles could be automated by 2030, and LinkedIn data shows AI job postings have more than doubled since 2021.
-            The shift isn’t coming—it’s here. Will you watch it or build what comes next?
-          </p>
-          <div className="quote-card">
-            <p>“AI isn’t taking jobs. People who know how to build with AI are.”</p>
-          </div>
+          <h2>
+            Jobs are vanishing. AI Natives are <span className="hero-gradient">replacing them.</span>
+          </h2>
+          <p className="why-intro">2025 grads compete with AI-native operators. Teams hire builders who automate, ship, and speak product.</p>
         </div>
-        <div className="photo-card" aria-hidden="true">
-          <div className="photo-overlay">
-            <p>Strategy Session</p>
-            <span>Product + Research + Delivery</span>
+        <div className="why-timeline">
+          <motion.div className="timeline-line" aria-hidden="true" initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }} />
+          <div className="timeline-steps">
+            <motion.div className="timeline-node" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}>
+              <span>2023</span>
+              <h3>Jobs shift faster than degrees.</h3>
+              <p>ChatGPT launched. Companies hired AI builders. Universities kept teaching the same curriculum.</p>
+            </motion.div>
+            <motion.div className="timeline-node" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.4 }}>
+              <span>2025</span>
+              <h3>You graduate into automation.</h3>
+              <p>Entry-level roles are automated. Hiring managers want portfolios, not GPAs.</p>
+            </motion.div>
+            <motion.div className="timeline-node" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.6 }}>
+              <span>2030</span>
+              <h3>Proof beats promises.</h3>
+              <p>AI-native builders lead teams. Everyone else gets replaced by their tools.</p>
+            </motion.div>
           </div>
+          <p className="why-quote-inline">“AI isn’t taking jobs. People who know how to build with AI are.” — Sarath Ramesh</p>
         </div>
       </div>
     </section>
