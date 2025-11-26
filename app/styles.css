@@ -1439,3 +1439,122 @@ img {
   color: var(--text-muted);
   font-style: normal;
 }
+
+/* Who Section Redesign */
+.scenarios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.scenario-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.scenario-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(15, 169, 255, 0.3);
+  box-shadow: 0 12px 30px rgba(15, 169, 255, 0.1);
+}
+
+.scenario-card h3 {
+  font-size: 1.3rem;
+  margin: 0 0 1rem;
+  color: #fff;
+}
+
+.scenario-description {
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.scenario-solution {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.solution-label {
+  display: block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.scenario-solution p {
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+}
+
+.requirements-section {
+  margin-bottom: 3rem;
+}
+
+.requirements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.requirements-column {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.requirements-title {
+  font-size: 1.2rem;
+  margin: 0 0 1.5rem;
+  color: #fff;
+}
+
+.requirements-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.requirements-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.check-icon {
+  color: #0fa9ff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.cross-icon {
+  color: #ff7abd;
+  font-weight: 700;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.requirements-list.need li {
+  color: #e2e8f0;
+}
+
+.requirements-list.dont-need li {
+  color: var(--text-muted);
+  opacity: 0.8;
+}
