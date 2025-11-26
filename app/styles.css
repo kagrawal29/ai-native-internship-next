@@ -1265,3 +1265,101 @@ img {
   line-height: 1.5;
   margin: 0;
 }
+
+/* Stack Section Redesign */
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.stack-category {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.category-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tool-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 0.6rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+.tool-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(15, 169, 255, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.tool-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #e2e8f0;
+}
+
+.reassurance-panel {
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
+  background: linear-gradient(140deg, rgba(15, 169, 255, 0.1), rgba(147, 64, 255, 0.05));
+  border: 1px solid rgba(15, 169, 255, 0.2);
+  border-radius: 24px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.reassurance-panel p {
+  font-size: 1.2rem;
+  color: #fff;
+  font-style: italic;
+  margin: 0 0 1.5rem;
+  line-height: 1.6;
+}
+
+.quote-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.author-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--gradient);
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+.quote-author span {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
