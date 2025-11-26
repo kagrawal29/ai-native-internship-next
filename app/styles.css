@@ -1558,3 +1558,289 @@ img {
   color: var(--text-muted);
   opacity: 0.8;
 }
+
+/* Apply Section Redesign */
+.apply-section {
+  background: radial-gradient(circle at top, rgba(26, 40, 88, 0.25), rgba(5, 6, 8, 0));
+}
+
+.urgency-banner {
+  background: linear-gradient(140deg, rgba(255, 122, 189, 0.15), rgba(255, 71, 87, 0.1));
+  border: 1px solid rgba(255, 122, 189, 0.3);
+  border-radius: 24px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.urgency-content {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.urgency-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #ff7abd;
+  font-weight: 600;
+}
+
+.urgency-title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin: 0.5rem 0 0;
+  color: #fff;
+}
+
+.urgency-bar {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.urgency-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ff7abd, #ff4757);
+  border-radius: 999px;
+  animation: pulse-fill 2s ease-in-out infinite;
+}
+
+.pricing-card {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  background: rgba(14, 16, 25, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 28px;
+  padding: 2.5rem;
+  backdrop-filter: blur(18px);
+}
+
+.pricing-header h3 {
+  font-size: 1.3rem;
+  margin: 0 0 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.pricing-amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.price-original {
+  font-size: 1.5rem;
+  color: var(--text-muted);
+  text-decoration: line-through;
+}
+
+.price-current {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricing-note {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.pricing-includes {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pricing-includes h4 {
+  font-size: 1rem;
+  margin: 0 0 1rem;
+  color: #fff;
+}
+
+.pricing-includes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.pricing-includes li {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.scholarship-section {
+  text-align: center;
+}
+
+.scholarship-badge {
+  display: inline-block;
+  background: rgba(255, 215, 0, 0.1);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  color: #ffd700;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.scholarship-text {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.scholarship-link {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.application-process {
+  margin-bottom: 3rem;
+}
+
+.process-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 0 2rem;
+  color: #fff;
+}
+
+.application-stepper {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.step-card {
+  display: flex;
+  gap: 1.5rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.step-card:hover {
+  border-color: rgba(15, 169, 255, 0.3);
+  transform: translateX(4px);
+}
+
+.step-number {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--gradient);
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.step-header h4 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #fff;
+}
+
+.step-duration {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+}
+
+.step-description {
+  color: var(--text-muted);
+  margin: 0 0 0.75rem;
+}
+
+.step-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.step-details li {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.step-details li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+}
+
+.cta-buttons {
+  text-align: center;
+}
+
+.btn-large {
+  font-size: 1.1rem;
+  padding: 1.2rem 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-secondary {
+  margin-top: 1rem;
+}
+
+.cta-secondary p {
+  margin: 0 0 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.whatsapp-link {
+  color: #25D366;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .pricing-amount {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .step-card {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .step-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
