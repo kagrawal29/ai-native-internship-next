@@ -1,5 +1,5 @@
 # Section Redesign Brief
-## AI Native Internship Website - Post "Why Now" Sections
+## AI Native Bootcamp Website - Post "Why Now" Sections
 
 > [!NOTE]
 > **Target Audience**: Final year college students actively searching for jobs

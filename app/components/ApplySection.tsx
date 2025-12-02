@@ -52,10 +52,10 @@ export function ApplySection() {
             <h3>Founding Cohort Pricing</h3>
           </div>
           <div className="pricing-amount">
-            <span className="price-original">₹29,999</span>
-            <span className="price-current">₹19,999</span>
+            <span className="price-original">₹79,000</span>
+            <span className="price-current">₹49,000</span>
           </div>
-          <p className="pricing-note">(Early bird discount ends Dec 5)</p>
+          <p className="pricing-note">(Early bird discount - Limited time offer)</p>
 
           <div className="pricing-includes">
             <h4>What&apos;s included:</h4>

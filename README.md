@@ -1,4 +1,4 @@
-# AI Native Internship Website
+# AI Native Bootcamp Website
 
 Next.js (App Router) port of the original static `index.html` + `styles.css` landing page.
 

@@ -4,7 +4,7 @@ export function HeroSection() {
       <div className="container">
         <div className="hero-card">
           <div className="hero-content">
-            <p className="eyebrow">AI Native Internship • 2025 Founding Cohort</p>
+            <p className="eyebrow">AI Native Bootcamp • 2025 Founding Cohort</p>
             <h1>
               <span className="hero-gradient">Stand out</span> in Placements
               <br /> Build AI Projects

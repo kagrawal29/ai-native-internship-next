@@ -3,11 +3,11 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="container header-inner">
         <a className="brand" href="#home">
-          <div className="brand-mark">AI</div>
+          <img src="/pftf-logo.jpg" alt="PFTF Logo" className="brand-logo" />
           <div>
-            <p className="brand-name">AI Native Internship</p>
+            <p className="brand-name">AI Native Bootcamp</p>
             <span className="brand-tagline hero-gradient">
-              Build Real AI • Launch Your Career
+              by PFTF
             </span>
           </div>
         </a>

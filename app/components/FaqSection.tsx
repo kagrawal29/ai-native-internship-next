@@ -50,7 +50,7 @@ const faqCategories = [
     faqs: [
       {
         q: "How much does the program cost?",
-        a: "Founding cohort price: ₹19,999 (regular ₹29,999). Includes 12 weeks of mentorship, API credits (~₹5k value), portfolio review, and interview prep. Payment plans available.",
+        a: "Founding cohort price: ₹49,000 (regular ₹79,000). Includes 12 weeks of mentorship, API credits (~₹5k value), portfolio review, and interview prep. Payment plans available.",
       },
       {
         q: "Are scholarships available?",
