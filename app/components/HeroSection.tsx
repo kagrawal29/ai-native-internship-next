@@ -14,8 +14,8 @@ export function HeroSection() {
               walk into interviews with proof you can ship.
             </p>
             <div className="hero-actions">
-              <a className="btn btn-primary" href="#apply">
-                Apply to join the founding cohort
+              <a className="btn btn-primary" href="#apply" data-tally-open="Xx5A9j" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="2000">
+                Apply for Founding Cohort
               </a>
               <a className="btn btn-ghost" href="#journey">
                 See the journey in detail
