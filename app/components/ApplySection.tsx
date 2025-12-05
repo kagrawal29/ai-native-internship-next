@@ -49,13 +49,14 @@ export function ApplySection() {
 
         <div className="pricing-card">
           <div className="pricing-header">
-            <h3>Founding Cohort Pricing</h3>
+            <h3>Founding Cohort Details</h3>
           </div>
-          <div className="pricing-amount">
+          {/* Pricing hidden for conversion optimization */}
+          <div className="pricing-amount" style={{ display: "none" }}>
             <span className="price-original">₹79,000</span>
             <span className="price-current">₹49,000</span>
           </div>
-          <p className="pricing-note">(Early bird discount - Limited time offer)</p>
+          <p className="pricing-note">Limited seats available for Founding Cohort</p>
 
           <div className="pricing-includes">
             <h4>What&apos;s included:</h4>
@@ -71,7 +72,7 @@ export function ApplySection() {
           <div className="scholarship-section">
             <div className="scholarship-badge">💰 Scholarships Available</div>
             <p className="scholarship-text">For women in tech, first-generation students, and Tier 2/3 college students</p>
-            <a href="mailto:hello@ainative.io?subject=Scholarship Application" className="scholarship-link">
+            <a href="mailto:contact@pftf.in?subject=Scholarship Application" className="scholarship-link">
               Apply for scholarship →
             </a>
           </div>
@@ -108,14 +109,14 @@ export function ApplySection() {
         </div>
 
         <div className="cta-buttons">
-          <a className="btn btn-primary btn-large" href="mailto:hello@ainative.io?subject=Application for Founding Cohort">
+          <a className="btn btn-primary btn-large" href="#apply" data-tally-open="Xx5A9j" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="2000">
             Apply for Founding Cohort
           </a>
           <div className="cta-secondary">
-            <p>Questions? Email hello@ainative.io or</p>
-            <a href="https://wa.me/1234567890" className="whatsapp-link">
-              💬 Quick questions? WhatsApp us
-            </a>
+            <p>Have questions before applying?</p>
+            <button className="btn-link" data-tally-open="Xx5A9j" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="2000">
+              📞 Ask for a callback
+            </button>
           </div>
         </div>
       </div>
