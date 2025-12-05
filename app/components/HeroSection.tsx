@@ -4,7 +4,7 @@ export function HeroSection() {
       <div className="container">
         <div className="hero-card">
           <div className="hero-content">
-            <p className="eyebrow">AI Native Internship • 2025 Founding Cohort</p>
+            <p className="eyebrow">AI Native Bootcamp • 2025 Founding Cohort</p>
             <h1>
               <span className="hero-gradient">Stand out</span> in Placements
               <br /> Build AI Projects
@@ -14,8 +14,8 @@ export function HeroSection() {
               walk into interviews with proof you can ship.
             </p>
             <div className="hero-actions">
-              <a className="btn btn-primary" href="#apply">
-                Apply to join the founding cohort
+              <a className="btn btn-primary" href="#apply" data-tally-open="Xx5A9j" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="2000">
+                Apply for Founding Cohort
               </a>
               <a className="btn btn-ghost" href="#journey">
                 See the journey in detail

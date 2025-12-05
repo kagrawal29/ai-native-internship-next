@@ -1,5 +1,5 @@
 # Section Redesign Brief
-## AI Native Internship Website - Post "Why Now" Sections
+## AI Native Bootcamp Website - Post "Why Now" Sections
 
 > [!NOTE]
 > **Target Audience**: Final year college students actively searching for jobs
@@ -596,7 +596,7 @@ Lead: We're keeping the first cohort small so every builder gets close mentor ti
 Apply for Founding Cohort
 
 [Small text below]
-Questions? Email hello@ainative.io or schedule a call
+Questions? Email contact@pftf.in or schedule a call
 [WhatsApp icon] Quick questions? WhatsApp us
 ```
 
@@ -681,7 +681,7 @@ A: All sessions are recorded. But live attendance is strongly encouraged—real-
 **Category 4: 👨‍👩‍👧‍👦 For Parents**
 
 **Q: Can my parents talk to someone before I apply?**
-A: Of course. Email hello@ainative.io and we'll set up a call to walk them through the program, outcomes, and what makes this different from traditional training.
+A: Of course. Email contact@pftf.in and we'll set up a call to walk them through the program, outcomes, and what makes this different from traditional training.
 
 **Q: Why choose this over other IT training institutes?**
 A: They teach theory and give certificates. We make you ship, share work publicly, and talk through it like a teammate. Recruiters care about proof, not certificates. Ask to see our students' LinkedIn posts—that's the difference.
@@ -692,7 +692,7 @@ A: This is Cohort 01, so no student reviews yet. But you can check LinkedIn post
 **Still have questions?**
 ```
 [Button] Schedule a call with the team
-[Link] Email us: hello@ainative.io
+[Link] Email us: contact@pftf.in
 ```
 
 ---

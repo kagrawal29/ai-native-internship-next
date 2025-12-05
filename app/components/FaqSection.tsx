@@ -50,7 +50,7 @@ const faqCategories = [
     faqs: [
       {
         q: "How much does the program cost?",
-        a: "Founding cohort price: ₹19,999 (regular ₹29,999). Includes 12 weeks of mentorship, API credits (~₹5k value), portfolio review, and interview prep. Payment plans available.",
+        a: "We offer competitive pricing for the founding cohort with significant early-bird benefits. We also have flexible payment plans and scholarships available. Apply to get the detailed fee structure.",
       },
       {
         q: "Are scholarships available?",
@@ -68,7 +68,7 @@ const faqCategories = [
     faqs: [
       {
         q: "Can my parents talk to someone before I apply?",
-        a: "Of course. Email hello@ainative.io and we'll set up a call to walk them through the program and outcomes.",
+        a: "Of course. Email contact@pftf.in and we'll set up a call to walk them through the program and outcomes.",
       },
       {
         q: "Why choose this over other IT training institutes?",
@@ -142,11 +142,11 @@ export function FaqSection() {
         <div className="faq-footer">
           <p>Still have questions?</p>
           <div className="faq-cta-buttons">
-            <a href="mailto:hello@ainative.io" className="btn btn-ghost">
+            <a href="#apply" className="btn btn-ghost" data-tally-open="Xx5A9j" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="2000">
               Schedule a call with the team
             </a>
-            <a href="mailto:hello@ainative.io" className="text-primary">
-              Email us: hello@ainative.io
+            <a href="mailto:contact@pftf.in" className="text-primary">
+              Email us: contact@pftf.in
             </a>
           </div>
         </div>
