@@ -18,7 +18,7 @@ export function PftfCtaSection() {
                         Join <span className="hero-gradient">Polymath For The Future</span>
                     </h2>
                     <p className="cta-intro">
-                        We're building a global, inter-generational community of polymaths — people who want to think deeply, learn broadly and build bravely in the Age of AI.
+                        We&apos;re building a global, inter-generational community of polymaths — people who want to think deeply, learn broadly and build bravely in the Age of AI.
                     </p>
                 </motion.div>
 

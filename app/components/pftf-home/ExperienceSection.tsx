@@ -46,7 +46,7 @@ export function ExperienceSection() {
                         transition={{ duration: 0.6 }}
                     >
                         <p className="experience-statement">
-                            It doesn't feel like sitting in a classroom.
+                            It doesn&apos;t feel like sitting in a classroom.
                             <br />
                             <strong>It feels like walking into a studio where everyone is in motion.</strong>
                         </p>
