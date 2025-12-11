@@ -1990,3 +1990,943 @@ img {
     font-size: 0.9rem;
   }
 }
+/* ============================================
+   PFTF Homepage Styles
+   ============================================ */
+
+/* PFTF Hero Section */
+.pftf-hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 100px 0 80px;
+  background: radial-gradient(circle at top, rgba(35, 52, 90, 0.4), rgba(5, 6, 8, 0) 70%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content-center {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 3rem;
+}
+
+.pftf-hero-headline {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+  margin: 0 0 1.5rem;
+  font-weight: 800;
+}
+
+.pftf-hero-subheadline {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0 0 2.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pftf-hero-actions {
+  margin-bottom: 1.5rem;
+}
+
+.pftf-hero-visual {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  height: 300px;
+}
+
+.pftf-connection-visual {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.connection-node {
+  position: absolute;
+  padding: 1rem 1.5rem;
+  background: rgba(15, 169, 255, 0.1);
+  border: 1px solid rgba(15, 169, 255, 0.3);
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  backdrop-filter: blur(10px);
+}
+
+.connection-node.node-1 {
+  top: 20%;
+  left: 10%;
+  background: rgba(15, 169, 255, 0.1);
+  border-color: rgba(15, 169, 255, 0.3);
+}
+
+.connection-node.node-2 {
+  top: 20%;
+  right: 10%;
+  background: rgba(147, 64, 255, 0.1);
+  border-color: rgba(147, 64, 255, 0.3);
+}
+
+.connection-node.node-3 {
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 122, 189, 0.1);
+  border-color: rgba(255, 122, 189, 0.3);
+}
+
+.connection-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Why PFTF Section */
+.why-pftf {
+  background: radial-gradient(circle at center, rgba(26, 40, 88, 0.2), rgba(5, 6, 8, 0));
+}
+
+.why-pftf-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.why-statement {
+  margin-bottom: 3rem;
+}
+
+.why-intro {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.mismatch-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.mismatch-card {
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  text-align: center;
+}
+
+.mismatch-card.education {
+  border-color: rgba(255, 122, 189, 0.3);
+  background: rgba(255, 122, 189, 0.05);
+}
+
+.mismatch-card.industry {
+  border-color: rgba(15, 169, 255, 0.3);
+  background: rgba(15, 169, 255, 0.05);
+}
+
+.mismatch-card h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.2rem;
+}
+
+.mismatch-card p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.mismatch-divider {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.why-individual {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+.why-ai-age {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.why-ai-age p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+}
+
+.why-belief {
+  margin: 2rem 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+.belief-intro {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.belief-statement {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #fff;
+  font-weight: 500;
+}
+
+.why-mission {
+  margin: 3rem 0 0;
+  text-align: center;
+}
+
+.mission-statement {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.mission-statement .highlight {
+  color: #fff;
+  font-weight: 600;
+}
+
+.mission-statement .highlight.gradient {
+  background: linear-gradient(120deg, #0fa9ff, #9340ff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* What is PFTF Section */
+.what-is-pftf {
+  background: radial-gradient(circle at bottom, rgba(35, 52, 90, 0.3), rgba(5, 6, 8, 0) 70%);
+}
+
+.what-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.what-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.disciplines-visual {
+  position: relative;
+  margin: 3rem 0;
+  min-height: 400px;
+}
+
+.disciplines-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.discipline-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.discipline-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.discipline-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.discipline-node span {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.disciplines-connections {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.what-experiences {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.experiences-intro {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.experiences-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.experiences-list li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.what-philosophy {
+  margin: 3rem 0 0;
+  text-align: center;
+}
+
+.philosophy-statement {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+/* Principles Section */
+.principles-section {
+  background: radial-gradient(circle at top, rgba(26, 40, 88, 0.25), rgba(5, 6, 8, 0));
+}
+
+.principles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.principle-card {
+  padding: 2rem;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.principle-card:hover {
+  border-color: rgba(15, 169, 255, 0.3);
+  box-shadow: 0 20px 40px rgba(15, 169, 255, 0.15);
+}
+
+.principle-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.principle-icon-wrapper {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principle-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.principle-number {
+  font-size: 2rem;
+  font-weight: 800;
+  opacity: 0.3;
+}
+
+.principle-title {
+  font-size: 1.2rem;
+  margin: 0 0 1rem;
+  line-height: 1.3;
+}
+
+.principle-description {
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.principle-accent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  opacity: 0.5;
+}
+
+.principles-footer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.principles-closing {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* PFTF Programs Section */
+.pftf-programs {
+  background: radial-gradient(circle at center, rgba(35, 52, 90, 0.2), rgba(5, 6, 8, 0) 70%);
+}
+
+.programs-list {
+  display: grid;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.program-card {
+  padding: 2.5rem;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.program-card.program-available {
+  border-color: rgba(15, 169, 255, 0.3);
+  background: rgba(15, 169, 255, 0.05);
+}
+
+.program-card.program-coming-soon {
+  border-color: rgba(147, 64, 255, 0.2);
+  background: rgba(147, 64, 255, 0.03);
+  opacity: 0.9;
+}
+
+.program-card.program-in-development {
+  border-color: rgba(123, 94, 255, 0.15);
+  background: rgba(123, 94, 255, 0.02);
+  opacity: 0.8;
+}
+
+.program-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(15, 169, 255, 0.2);
+}
+
+.program-card-header {
+  margin-bottom: 2rem;
+}
+
+.program-badge-wrapper {
+  margin-bottom: 1rem;
+}
+
+.program-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: 1px solid;
+}
+
+.program-badge.badge-available {
+  background: rgba(15, 169, 255, 0.15);
+  color: #0fa9ff;
+}
+
+.program-badge.badge-coming-soon {
+  background: rgba(147, 64, 255, 0.15);
+  color: #9340ff;
+}
+
+.program-badge.badge-in-development {
+  background: rgba(123, 94, 255, 0.15);
+  color: #7b5eff;
+}
+
+.program-title {
+  font-size: 2rem;
+  margin: 0 0 0.5rem;
+}
+
+.program-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.program-card-body {
+  margin-bottom: 2rem;
+}
+
+.program-description {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.program-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.program-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.feature-bullet {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 0.6rem;
+}
+
+.program-card-footer {
+  display: flex;
+  gap: 1rem;
+}
+
+.program-accent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.programs-footer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.programs-evolution {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+/* Experience Section */
+.experience-section {
+  background: radial-gradient(circle at bottom, rgba(26, 40, 88, 0.2), rgba(5, 6, 8, 0));
+}
+
+.experience-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.experience-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.experience-statement {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.experience-flow {
+  margin: 3rem 0;
+  position: relative;
+}
+
+.experience-step {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.step-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.step-number {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(15, 169, 255, 0.15);
+  border: 2px solid rgba(15, 169, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #0fa9ff;
+}
+
+.step-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+
+.step-content p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.step-connector {
+  position: absolute;
+  left: 75px;
+  top: 48px;
+  width: 2px;
+  height: calc(100% + 2rem);
+  background: linear-gradient(180deg, rgba(15, 169, 255, 0.3), rgba(147, 64, 255, 0.3));
+}
+
+.experience-days {
+  margin: 3rem 0;
+}
+
+.days-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.day-card {
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.day-card h4 {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+
+.day-card p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.experience-embodiment {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.embodiment-note {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Target Audience Section */
+.target-audience-section {
+  background: radial-gradient(circle at top, rgba(35, 52, 90, 0.25), rgba(5, 6, 8, 0));
+}
+
+.personas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.persona-card {
+  padding: 2rem;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.persona-card:hover {
+  border-color: rgba(15, 169, 255, 0.3);
+  box-shadow: 0 20px 40px rgba(15, 169, 255, 0.15);
+}
+
+.persona-icon-wrapper {
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.persona-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.persona-title {
+  font-size: 1.2rem;
+  margin: 0 0 1rem;
+  line-height: 1.3;
+}
+
+.persona-description {
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.persona-accent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  opacity: 0.5;
+}
+
+.audience-invitation {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.invitation-card {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 24px;
+  border: 1px solid rgba(15, 169, 255, 0.2);
+  background: rgba(15, 169, 255, 0.05);
+}
+
+.invitation-text {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* PFTF CTA Section */
+.pftf-cta {
+  background: radial-gradient(circle at center, rgba(35, 52, 90, 0.3), rgba(5, 6, 8, 0) 70%);
+  padding: 100px 0;
+}
+
+.cta-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.cta-intro {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 1.5rem auto 0;
+}
+
+.cta-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.cta-card {
+  padding: 3rem;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  transition: all 0.3s ease;
+}
+
+.cta-card.cta-primary {
+  border-color: rgba(15, 169, 255, 0.3);
+  background: rgba(15, 169, 255, 0.05);
+}
+
+.cta-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px rgba(15, 169, 255, 0.2);
+}
+
+.cta-card-content h3 {
+  font-size: 1.8rem;
+  margin: 0 0 1rem;
+}
+
+.cta-card-content p {
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.cta-form {
+  margin: 2rem 0;
+}
+
+.btn-large {
+  padding: 1.1rem 2.5rem;
+  font-size: 1.05rem;
+}
+
+.cta-social-proof {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.cta-icon-wrapper {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: rgba(147, 64, 255, 0.15);
+  border: 1px solid rgba(147, 64, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.cta-icon {
+  width: 32px;
+  height: 32px;
+  color: #9340ff;
+}
+
+.cta-footer {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.cta-closing {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pftf-hero-headline {
+    font-size: 2rem;
+  }
+
+  .pftf-hero-subheadline {
+    font-size: 1rem;
+  }
+
+  .mismatch-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .mismatch-divider {
+    transform: rotate(90deg);
+  }
+
+  .disciplines-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+  }
+
+  .principles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .programs-list {
+    gap: 1.5rem;
+  }
+
+  .experience-step {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .step-marker {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .step-connector {
+    display: none;
+  }
+
+  .personas-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hero-urgency {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
