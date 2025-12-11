@@ -88,7 +88,7 @@ export function FoundersSection() {
         </div>
 
         <p className="section-cta">
-          <a href="mailto:hello@ainative.io">Want to talk to the team? hello@ainative.io</a>
+          <a href="mailto:contact@pftf.in">Want to talk to the team? contact@pftf.in</a>
         </p>
       </div>
     </section>
