@@ -37,8 +37,8 @@ export function TargetAudienceSection() {
                 <div className="section-heading">
                     <p className="eyebrow">Who PFTF is For</p>
                     <h2>
-                        If You've Ever Thought{" "}
-                        <span className="hero-gradient">"I Don't Fit in One Box"</span>
+                        If You&apos;ve Ever Thought{" "}
+                        <span className="hero-gradient">&ldquo;I Don&apos;t Fit in One Box&rdquo;</span>
                     </h2>
                     <p className="lead">
                         PFTF is an invitation to stop choosing — and start weaving.
@@ -87,7 +87,7 @@ export function TargetAudienceSection() {
                 >
                     <div className="invitation-card">
                         <p className="invitation-text">
-                            If you've ever thought <strong>"I don't fit in one box"</strong>,
+                            If you&apos;ve ever thought <strong>&ldquo;I don&apos;t fit in one box&rdquo;</strong>,
                             <br />
                             PFTF is an invitation to stop choosing — and start weaving.
                         </p>

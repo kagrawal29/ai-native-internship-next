@@ -67,7 +67,7 @@ export function PftfProgramsSection() {
                         <span className="hero-gradient">Not the Whole House</span>
                     </h2>
                     <p className="lead">
-                        We're starting where the world is shifting fastest: AI and intelligent tools.
+                        We&apos;re starting where the world is shifting fastest: AI and intelligent tools.
                         <br />
                         But every program we build serves one deeper aim — to help you think like a polymath and build like a systems designer.
                     </p>

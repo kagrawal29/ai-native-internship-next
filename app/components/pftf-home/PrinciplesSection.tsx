@@ -104,7 +104,7 @@ export function PrinciplesSection() {
                     transition={{ duration: 0.6, delay: 0.6 }}
                 >
                     <p className="principles-closing">
-                        These aren't just words on a wall. They're the filters we use to design every program, every session, every interaction at PFTF.
+                        These aren&apos;t just words on a wall. They&apos;re the filters we use to design every program, every session, every interaction at PFTF.
                     </p>
                 </motion.div>
             </div>

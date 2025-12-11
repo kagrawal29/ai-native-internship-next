@@ -22,7 +22,7 @@ export function WhyPftfSection() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
                     >
-                        <p className="why-intro">For decades, we've lived with a quiet mismatch:</p>
+                        <p className="why-intro">For decades, we&apos;ve lived with a quiet mismatch:</p>
 
                         <div className="mismatch-grid">
                             <div className="mismatch-card education">
@@ -78,7 +78,7 @@ export function WhyPftfSection() {
                         transition={{ duration: 0.6, delay: 0.6 }}
                     >
                         <p className="mission-statement">
-                            We're here to shift from <span className="highlight">top-down instruction</span>
+                            We&apos;re here to shift from <span className="highlight">top-down instruction</span>
                             <br />
                             to <span className="highlight gradient">bottom-up empowerment of the individual.</span>
                         </p>
